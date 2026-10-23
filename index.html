@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save Forest | Save Life</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="logo">🌲 Save Forest 🍃</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#impact">Impact</a>
+      <a href="#action">Get Involved</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="tagline">A GREENER TOMORROW</p>
+      <h1>Save Forest,<br><span>Save Life 🍃</span></h1>
+      <p>
+        Forests are not just trees, they are life. They give us
+        clean air, fresh water, wildlife, and a healthier planet.
+        Let's protect them together.
+      </p>
+      <div class="hero-buttons">
+        <a href="#action" class="btn">Take Action 🌱</a>
+        <a href="#about" class="btn btn-outline">Learn More →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <p class="tagline">WHY FORESTS MATTER</p>
+    <h2>A Healthier Planet Starts With Trees</h2>
+    <div class="underline"></div>
+
+    <div class="features" id="impact">
+      <article class="feature">
+        <div class="feature-icon">🌲</div>
+        <h3>Cleans Our Air</h3>
+        <p>Trees absorb carbon dioxide and release oxygen.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon">🐾</div>
+        <h3>Protects Wildlife</h3>
+        <p>Forests are home to millions of plants and animals.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon">💧</div>
+        <h3>Keeps Water Clean</h3>
+        <p>Trees help protect soil and support the water cycle.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon">🌍</div>
+        <h3>Fights Climate Change</h3>
+        <p>Forests store carbon and help regulate the climate.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Action Section -->
+  <section class="action section" id="action">
+    <p class="tagline">BE PART OF THE CHANGE</p>
+    <h2>Small Steps, Big Changes</h2>
+    <p class="action-text">
+      Every small action counts. Start today and help create
+      a greener future for the next generation.
+    </p>
+
+    <div class="action-cards">
+      <div class="action-card">
+        <span>🌱</span>
+        <h3>Plant Trees</h3>
+        <p>Plant native trees and care for them as they grow.</p>
+      </div>
+
+      <div class="action-card">
+        <span>♻️</span>
+        <h3>Reduce Waste</h3>
+        <p>Reuse paper, recycle materials, and avoid unnecessary waste.</p>
+      </div>
+
+      <div class="action-card">
+        <span>📢</span>
+        <h3>Spread Awareness</h3>
+        <p>Encourage your friends and family to protect forests.</p>
+      </div>
+    </div>
+
+    <button class="btn" id="pledgeBtn">Take the Green Pledge 🌿</button>
+    <p id="pledgeMessage" class="pledge-message" aria-live="polite"></p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <h2>Join the Green Movement</h2>
+    <p>Share your ideas for making our planet greener.</p>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="email" id="email" placeholder="Your email" required>
+      <textarea id="message" placeholder="Your message" rows="4" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formMessage" aria-live="polite"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h3>🌿 Save Forest, Save Future 🌿</h3>
+    <p class="quote">"Small actions make a big difference."</p>
+    <p>Protect Nature. Protect Life.</p>
+    <p class="copyright">© <span id="year"></span> Save Forest. Made with 💚 for nature.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
